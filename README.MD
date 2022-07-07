@@ -93,6 +93,32 @@ sudo systemctl restart NetworkManager
 sudo python3 /opt/raspi-configurator/main.py --base-only
 ```
 
+### Navigating the interface
+
+#### Lists
+
+- Turn the encoder to move between items
+- Press the encoder to go into a submenu or edit a field
+- Long press the encoder to go back to the previous menu
+
+#### Boolean fields
+- Turn the encoder to change between YES and NO
+- Press the encoder to confirm your choice
+
+#### Integer fields
+- Turn the encoder to adjust the number
+- Press the encoder to confirm your choice
+
+#### String fields
+- Turn the encoder to move the selected character
+- Press the encoder to add the currently selected letter to the string (or if the selected letter is '↳', to confirm your choice)
+- Long press the encoder to delete the last character
+
+#### Date fields
+- Turn the encoder to adjust the currently selected value (year / month / day)
+- Press the encoder to switch between values
+- Long press the encoder to confirm your choice
+
 ### Credits:
 
 - [WaybackProxy](https://github.com/richardg867/WaybackProxy) by richardg867
