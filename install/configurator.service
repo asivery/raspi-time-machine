@@ -1,0 +1,10 @@
+[Unit]
+Description=Raspberry Configurator
+After=network.target
+
+[Service]
+ExecStart=/opt/raspi-configurator/main.py
+WorkingDirectory=/opt/raspi-configurator
+
+[Install]
+WantedBy=multi-user.target
